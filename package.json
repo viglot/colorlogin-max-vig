@@ -1,6 +1,7 @@
 {
   "name": "colorlogin-max-vig",
   "version": "1.0.0",
+  "description": "Hej skriv vad projektet handlar om här i readme",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",

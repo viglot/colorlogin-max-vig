@@ -10,7 +10,7 @@ server.post('/game', (req, res)=>{
     const userName = req.body.login_name
     const userPassword = req.body.login_password
     async function auth() {
-    }
+    } 
     auth()
 
 })

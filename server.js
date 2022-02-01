@@ -6,6 +6,25 @@ server.use(express.urlencoded({extended:true}))
 
 server.use(express.json())
 
+
+
+server.use(express.json())
+
+server.post('/login', (req, res)=>{
+    const userName = req.body.Uname
+    const userPassword = req.body.Pass
+    async function auth() {
+    }
+    auth()
+
+})
+server.get('/login', (req,res)=>{
+    res.sendFile(__dirname)
+})
+
+server.listen(3000)
+
+=======
 server.post('/game', (req, res)=>{
     const userName = req.body.login_name
     const userPassword = req.body.login_password
@@ -21,3 +40,4 @@ server.get('/game', (req,res)=>{
 
 
 server.listen(3000);
+

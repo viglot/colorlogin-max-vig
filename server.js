@@ -41,28 +41,7 @@ server.post('/register', (req, res)=>{
     //res.sendFile(__dirname + '/public' + '/login.html')
 })
 server.post('/login', (req, res)=>{
-    const userEmail = req.body.login_email
-
-
-
-server.use(express.json())
-
-server.post('/login', (req, res)=>{
-    const userName = req.body.Uname
-    const userPassword = req.body.Pass
-    async function auth() {
-    }
-    auth()
-
-})
-server.get('/login', (req,res)=>{
-    res.sendFile(__dirname)
-})
-
-server.listen(3000)
-
-server.post('/game', (req, res)=>{
-    const userName = req.body.login_name
+    const userEmail = req.body.login_name
     const userPassword = req.body.login_password
     async function auth() {
         const match = await Users.findOne({email:userEmail, password:userPassword})

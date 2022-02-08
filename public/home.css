@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(4, 0, 255);
+}
+
+h1 {
+	font-size: 3rem;
+    text-align: center;
+    display: flex;
+}
+
+p {
+	font-size: 1.7rem;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+p span {
+	font-family: "Courier New",monospace;
+}
+
+.instructions {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+.instructions p {
+	text-align: left;
+}
+
+.scoreBoard {
+	width: 40%;
+	padding: 2px 0;
+	margin-left: 10%;
+	background-color: black;
+	color: white;
+	position: relative;
+	float: left;
+}
+
+#megis {
+	height: 200px;
+	width: 200px;
+	display: none;
+	position: relative;
+    background-image: url("megaforce.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+}

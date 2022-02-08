@@ -4,7 +4,7 @@ server.use(express.static("public"))
 
 
 let a = 0;
-server.get('/highscore', (req, res)=>{
+server.get('/login', (req, res)=>{
 a++;
   res.send(a.toString());
 });

@@ -24,7 +24,6 @@ server.get('/login', (req,res)=>{
 
 server.listen(3000)
 
-=======
 server.post('/game', (req, res)=>{
     const userName = req.body.login_name
     const userPassword = req.body.login_password
@@ -40,4 +39,6 @@ server.get('/game', (req,res)=>{
 
 
 server.listen(3000);
+
+
 
